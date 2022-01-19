@@ -16,7 +16,7 @@ public class LongDateTimeTest {
 
         Date finalresult = underTest.longConvert(number);
 
-        assertEquals("Sat Sep 01 23:59:59 IST 2012",finalresult);
+        assertEquals(number,finalresult.getTime());
         //assertEquals("Sat Sep 01 23:59:59 IST 2012",finalresult);
        // assertSame("Sat Sep 01 23:59:59 IST 2012",finalresult);
     }

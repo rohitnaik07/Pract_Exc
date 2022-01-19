@@ -11,6 +11,6 @@ public class MaxOfArrayTest {
     @Test
     public void maxElementTest() {
         int result = underTest.maxElement();
-        assertEquals(50,50);
+        assertEquals(61,result);
     }
 }
