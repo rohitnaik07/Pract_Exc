@@ -2,7 +2,7 @@ package com.rainbowseigesix;
 
 public class SixPS {
     public static void main(String[] args){
-        int armnumber=153;
+        int armnumber=1634;
         double weight=55,height=1.7;
         long lnumber = 1346524199000l;
         int radius = 5;
